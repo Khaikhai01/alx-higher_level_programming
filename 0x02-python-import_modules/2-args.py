@@ -8,7 +8,7 @@ if __name__ == "__main__":
         print("1: {}".format(sys.argv[1]))
     elif len(sys.argv) > 2:
         j = 1
-        print("{} argments:".format((len(sys.argv) - 1)))
+        print("{} arguments:".format((len(sys.argv) - 1)))
         for i in range(len(sys.argv[1:])):
-            print("{}:{:s}".format(j, sys.argv[j]))
-            j += 1
+            print("{}: {:s}".format(j, sys.argv[j]))
+            j = j + 1
