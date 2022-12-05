@@ -13,4 +13,4 @@ def add_tuple(tuple_a=(), tuple_b=()):
             tuple_b = tuple_b[0], 0
 
     res = tuple(map(sum, zip(tuple_a, tuple_b)))
-    print(res)
+    return res
