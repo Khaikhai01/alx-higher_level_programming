@@ -6,7 +6,13 @@
 class Square:
     """Square class defined """
     def __init__(self, size=0):
-        """Initialized class attributes"""
+        """Initialized class attributes
+        Args: size - size of the square
+
+        Raises:
+        TypeError: if size is not type int
+        ValueError: if size is less than zero
+        """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
         elif size < 0:
