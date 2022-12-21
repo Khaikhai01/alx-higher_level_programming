@@ -33,5 +33,15 @@ class Square:
 
         Returns: area of the class square
         """
-        squared = self.__size ** 2
-        return squared
+        return (self.__size ** 2)
+
+
+    def my_print(self):
+        """printing the square of a number using # """
+        if self.__size == 0:
+            print()
+        else:
+            for digit in range(self.__size):
+                for num in range(self.__size):
+                    print('#', end='')
+                print()
