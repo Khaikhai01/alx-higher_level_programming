@@ -35,7 +35,6 @@ class Square:
         """
         return (self.__size ** 2)
 
-
     def my_print(self):
         """printing the square of a number using # """
         if self.__size == 0:
