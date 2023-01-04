@@ -68,4 +68,4 @@ class Rectangle:
                 emptyString = emptyString + '#' * self.width + '\n'
             else:
                 emptyString = emptyString + '#' * self.width
-        return emptyString 
+        return emptyString
