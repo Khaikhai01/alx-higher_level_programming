@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
 Rectangle class performing area and perimeter
 """
@@ -73,7 +74,7 @@ class Rectangle:
             else:
                 emptyString = emptyString + '#' * self.width
         return emptyString
-		
+
     def __repr__(self):
         newString = "Rectangle(" + str(self.__width) + ", "\
             + str(self.__height) + ")"
