@@ -5,5 +5,7 @@ import json
 
 
 def save_to_json_file(my_obj, filename):
+    '''opens, writes and save object to text file'''
+
     with open(filename, 'w', encoding='utf-8') as jsFile:
         return json.dump(my_obj, jsFile)
