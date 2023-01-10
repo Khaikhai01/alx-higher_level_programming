@@ -3,6 +3,7 @@
 '''class to json dictionary'''
 import json
 
+
 def class_to_json(obj):
     '''function to serialize obj'''
     dict = {}
